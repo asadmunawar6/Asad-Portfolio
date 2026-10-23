@@ -33,9 +33,13 @@ jobs:
 
       - name: Build static site
         run: npm run build
+        env:
+          VITE_BASE_PATH: /Asad-Portfolio/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
