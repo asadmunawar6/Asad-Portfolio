@@ -1,0 +1,1741 @@
+# MASTER PROMPT: ASAD MUNAWAR | LUXURY EXECUTIVE PORTFOLIO WEBSITE
+
+## 01. PROJECT OBJECTIVE
+
+Act as an award-winning creative director, luxury brand designer, senior UI/UX designer, motion design specialist, and expert React frontend engineer.
+
+Your task is to **design and develop a fully functional, exceptionally polished, luxury-style personal portfolio website for Asad Munawar**, an experienced Business Development Manager specializing in B2B client acquisition, IT services, LinkedIn outreach, email marketing, Upwork, Fiverr, strategic sales, and business development leadership.
+
+This must not look like an ordinary resume website, a generic freelancer landing page, or a standard AI-generated portfolio template.
+
+The website should feel like a premium personal brand developed by a high-end international design agency.
+
+Think of the visual sophistication associated with:
+
+- Award-winning Awwwards-style digital experiences
+- Luxury consulting firms and executive personal brands
+- Premium editorial websites
+- High-end technology consulting websites
+- Boutique business strategy firms
+- Modern, design-led creative agencies
+
+These are references for quality and sophistication, not instructions to copy any particular website.
+
+**The final website must be elegant, memorable, highly interactive, beautifully animated, exceptionally responsive, and fully deployable on GitHub Pages.**
+
+Build the real, functioning website. Do not provide only a design concept, wireframe, written explanation, or incomplete code snippets.
+
+---
+
+## 02. UNDERSTANDING THE PERSON BEHIND THE WEBSITE
+
+Before writing code, understand Asad Munawar's professional identity.
+
+### Professional identity
+
+**Name:** Asad Munawar
+
+**Primary positioning:** Business Development Manager
+
+**Professional specialization:** B2B Business Development, Technology Sales, Outbound Lead Generation, Client Acquisition, and Strategic Business Growth
+
+**Experience:** 4.5+ years, as stated in the supplied resume
+
+**Location:** Lahore, Pakistan
+
+**Email:** asadmunawar366@gmail.com
+
+**Phone:** +92 3496506231
+
+**Education:** Bachelor of Science in Computer Science, University of South Asia, 2023
+
+### Professional background
+
+Asad has progressed through business development roles, from Associate Business Developer to Business Development Manager.
+
+His professional experience covers business development in technology-oriented organizations.
+
+He has supported client acquisition for solutions involving:
+
+- Artificial Intelligence and Machine Learning
+- Cloud Solutions and Google Cloud Platform
+- Full Stack Development
+- Data Engineering
+- Mobile Application Development
+- SaaS and technology solutions
+- Digital Marketing
+- Content Management Systems
+- Web Development and E-commerce
+
+At Visionerds, he is responsible for managing a team of five business development professionals, developing B2B outreach strategies, building partnerships, identifying commercial opportunities, and coordinating with technical teams.
+
+His core channels include LinkedIn, email marketing, Upwork, Fiverr, and other freelance acquisition platforms.
+
+He has worked with tools such as Apollo, Instantly, Salesforce, LinkedIn Sales Navigator, Airscale, MillionVerifier, HubSpot, and Mailchimp.
+
+### Important positioning instruction
+
+Asad is a business development professional, not a software engineer offering development services directly.
+
+The website must communicate that he understands how to identify opportunities, position technical services, build a pipeline, engage decision-makers, handle proposals, and support client acquisition within technical industries.
+
+His understanding of AI, cloud, software, and digital services should be presented through the perspective of business development and solution selling.
+
+Do not portray him as personally developing AI models, coding applications, or implementing cloud infrastructure unless additional evidence is supplied.
+
+### Primary audiences
+
+Design the website for:
+
+1. CEOs, founders, and executives of technology companies seeking business development expertise.
+2. Digital marketing agencies and IT service companies interested in client acquisition.
+3. Recruitment teams evaluating senior business development professionals.
+4. Decision-makers seeking B2B outreach, sales development, or growth strategy expertise.
+5. Potential professional partners interested in collaboration.
+
+### Brand personality
+
+The website should communicate:
+
+- Confidence without arrogance
+- Strategic thinking
+- Executive maturity
+- Attention to detail
+- Trustworthiness
+- Commercial understanding
+- Technology-sector knowledge
+- Professional leadership
+- Refined visual taste
+
+Do not rely on exaggerated marketing claims or artificial success stories.
+
+---
+
+## 03. LUXURY ART DIRECTION
+
+### Design philosophy
+
+Create an art direction called:
+
+**EXECUTIVE NOIR | STRATEGY MEETS SOPHISTICATION**
+
+The entire website should look expensive, intentional, and highly refined.
+
+Instead of using large quantities of decorative elements, focus on superior composition, precise spacing, rich typography, thoughtful animation, and carefully controlled visual contrast.
+
+### Suggested color palette
+
+Use the following palette as the initial design system. Make it easy to customize later.
+
+Primary background:
+- Midnight Ink: #0B1017
+
+Secondary background:
+- Dark Graphite: #20252B
+
+Premium accent:
+- Champagne Gold: #C7A773
+
+Primary typography:
+- Warm Ivory: #F4F0E8
+
+Secondary typography:
+- Muted Gray: #A4A9AF
+
+Borders:
+- Low-opacity champagne or ivory outlines
+
+Use gold carefully. It should behave like a luxury detail rather than dominate the interface.
+
+Avoid overly bright yellow gold, excessive gradients, heavy neon effects, and saturated corporate blues.
+
+### Typography
+
+Create a sophisticated typographic hierarchy using a combination of:
+
+- A modern geometric sans-serif for navigation, interface labels, and supporting text.
+- A refined editorial serif for selected hero words, meaningful quotations, and occasional oversized statements.
+
+Suggested freely available fonts:
+
+- Manrope or DM Sans for body text
+- Cormorant Garamond or Playfair Display for editorial accents
+
+Maintain precise letter spacing and strong hierarchy.
+
+Use oversized typography where it improves impact.
+
+Do not apply serif typography everywhere.
+
+### Layout
+
+Use a premium editorial grid system.
+
+Include:
+
+- Generous negative space
+- Asymmetrical compositions with visual balance
+- Thin framing lines
+- Refined section dividers
+- Carefully aligned labels
+- Oversized heading typography
+- High-contrast content sections
+- Subtle gradient glows
+- Restrained decorative geometry
+- Sophisticated card layouts
+- Full-width visual storytelling sections
+
+Prefer layouts that look custom-designed instead of repeatedly placing three identical cards in every section.
+
+### Luxury outlining
+
+An important part of the visual identity is the use of high-quality outlines.
+
+Include:
+
+- One-pixel premium borders
+- Subtle corner details
+- Fine gold hairlines
+- Animated section underlines
+- Delicate card outlines
+- Editorial numbering
+- Thin geometric frames
+- Hover outlines with a soft traveling highlight
+- Carefully integrated horizontal and vertical dividers
+
+The lines should feel architectural, precise, and elegant.
+
+Avoid excessive glassmorphism or glowing rectangles.
+
+---
+
+## 04. ANIMATION AND INTERACTION SYSTEM
+
+Animation quality is a major priority.
+
+I want an interactive website where motion feels as carefully designed as the typography and layout.
+
+Use **Motion for React**, imported from `motion/react`, as the primary animation library.
+
+GSAP with ScrollTrigger may be used selectively for technically justified complex animations, but avoid unnecessary duplication of animation libraries.
+
+The animations should be fluid, high quality, smooth, and responsive.
+
+### A. Premium entrance animation
+
+Implement a restrained opening animation that feels like a luxury brand introduction.
+
+Possible sequence:
+
+1. A dark screen with a minimal AM monogram.
+2. A thin champagne-colored line reveals horizontally.
+3. The monogram transitions into the main website.
+4. The navigation fades into view.
+5. Hero typography reveals in a controlled stagger.
+6. Supporting text and calls to action enter after the title.
+
+Keep the transition brief and skip it on repeat navigation or for users who prefer reduced motion.
+
+Do not make users wait through long introductions.
+
+### B. Cinematic hero typography
+
+Build a sophisticated text reveal.
+
+Use a combination of:
+
+- Masked line reveal
+- Controlled vertical movement
+- Opacity transitions
+- Small staggered timing differences
+- Elegant easing
+
+Each line should appear intentionally.
+
+Avoid chaotic word splitting or unnecessary letter bouncing.
+
+### C. Scroll-triggered reveals
+
+Sections should reveal naturally as they enter the viewport.
+
+Use:
+
+- Opacity transitions
+- Small vertical translation
+- Staggered card reveals
+- Animated section numbers
+- Progressive underline expansion
+- Controlled image or graphic masking
+
+Keep animations consistent across the website.
+
+### D. Premium navigation interaction
+
+Create a fixed or intelligently sticky navigation bar.
+
+Features:
+
+- Transparent or minimal initial appearance
+- Subtle backdrop treatment on scroll
+- Animated active-section indicator
+- Thin underline hover effects
+- Smooth anchor navigation
+- Elegant mobile menu transition
+- Clearly visible focus states
+- Intelligent spacing and typography
+
+### E. Magnetic button interactions
+
+On desktop pointer devices, implement subtle magnetic behavior for selected primary CTA buttons.
+
+Buttons should react gently to cursor movement.
+
+Do not use exaggerated attraction or movement that interferes with clicking.
+
+Provide standard interactions for touchscreens and keyboard navigation.
+
+### F. Interactive outlined cards
+
+Service, expertise, and project cards should use:
+
+- Subtle border illumination
+- Small vertical lift
+- Refined background shift
+- Minimal icon animation
+- Smooth content reveal
+- Elegant cursor feedback
+
+Do not animate every element simultaneously.
+
+### G. Career timeline animation
+
+Build an interactive career journey.
+
+A thin vertical or horizontal line should progress as the viewer scrolls.
+
+Timeline entries should reveal individually.
+
+Important milestones should receive subtle gold accents.
+
+The experience must remain easy to navigate on mobile.
+
+### H. Expertise section interactions
+
+Build interactive panels for outreach capabilities.
+
+For example, selecting LinkedIn Outreach may show a simple animated representation of identifying decision-makers, connecting, and nurturing conversations.
+
+Email Marketing can show a stylized sequence of outreach stages.
+
+Upwork can show a proposal pipeline.
+
+Fiverr can show a service discovery and inquiry flow.
+
+These must be **conceptual visual explanations, not fabricated campaign dashboards or real performance results.**
+
+### I. Refined parallax
+
+Use very subtle parallax on selected decorative background elements.
+
+Limit its use to a few important sections.
+
+Avoid heavy full-page parallax, excessive pinning, or transformations that create motion sickness.
+
+### J. Custom desktop cursor
+
+Optionally create a minimal custom cursor for precision pointer devices.
+
+It can include:
+
+- Small circular outline
+- Hover enlargement on interactive regions
+- Label such as "Explore" on project cards
+- Subtle easing
+
+Keep the native cursor as a safe fallback.
+
+Never compromise usability or accessibility.
+
+### K. Section transitions
+
+Use subtle shifts in surface color, borders, gradients, and spacing to create a cinematic progression between sections.
+
+### L. Performance requirements
+
+Animations must be optimized.
+
+Prioritize transform and opacity animations.
+
+Target fluid rendering on modern devices.
+
+Avoid expensive scroll listeners that trigger unnecessary React rendering.
+
+Clean up listeners and animation instances.
+
+Use lazy loading where appropriate.
+
+Respect `prefers-reduced-motion`.
+
+For reduced-motion users, disable preloader sequences, large transforms, parallax, and cursor effects while retaining a polished, accessible interface.
+
+Animation should enhance readability, not delay access to content.
+
+---
+
+## 05. WEBSITE STRUCTURE
+
+Create a premium single-page portfolio experience with clear section navigation.
+
+The preferred structure is:
+
+1. Navigation
+2. Hero
+3. Professional Highlights
+4. About Asad
+5. Core Expertise
+6. Client Acquisition Channels
+7. Business Development Approach
+8. Selected Campaign Projects
+9. Professional Experience
+10. Platforms and Tools
+11. Education
+12. Contact
+13. Footer
+
+The sections should feel like chapters of one coherent professional story.
+
+Use elegant visual variation while maintaining a consistent design system.
+
+---
+
+## 06. SECTION 1: NAVIGATION
+
+Create a minimal premium navigation bar.
+
+### Left side
+
+Create a typography-based monogram:
+
+**AM**
+
+Use a thin architectural line or decorative outline.
+
+This is a proposed website monogram, not an existing personal logo.
+
+### Main links
+
+- Home
+- About
+- Expertise
+- Campaigns
+- Experience
+- Contact
+
+### Right side
+
+Primary CTA:
+
+**Let's Connect**
+
+Use a carefully outlined champagne-gold button.
+
+On scroll, the navigation should become slightly more compact and maintain a refined appearance.
+
+On mobile, create a responsive full-screen or slide-in navigation experience with accessible controls.
+
+Do not use dead navigation links.
+
+---
+
+## 07. SECTION 2: HERO
+
+The hero is the most important visual section.
+
+It must instantly establish Asad as a credible business development professional.
+
+### Suggested eyebrow
+
+BUSINESS DEVELOPMENT MANAGER / B2B TECHNOLOGY GROWTH
+
+### Main headline
+
+**Building Relationships.**
+
+**Creating Opportunities.**
+
+**Driving Growth.**
+
+Use a mixture of bold modern typography and one refined serif treatment for emphasis.
+
+Make the composition large, balanced, and editorial.
+
+### Supporting paragraph
+
+"I'm Asad Munawar, a Business Development Manager with 4.5+ years of experience in B2B client acquisition, strategic outreach, and technology-focused business growth. I connect business opportunities with the right solutions through targeted outreach, relationship building, and a structured approach to sales."
+
+### Primary CTA
+
+Explore My Experience
+
+### Secondary CTA
+
+Let's Connect
+
+### Hero visual
+
+Design a premium portrait area on the right side for desktop layouts.
+
+Important:
+
+- No actual photo has been supplied.
+- Create a beautifully designed portrait placeholder.
+- Label the asset clearly for later replacement.
+- Do not generate a realistic fake photograph of Asad.
+- Do not substitute an unrelated person's photo.
+- The design must still look premium when only the placeholder is available.
+
+Suggested treatment:
+
+An editorial portrait frame with subtle geometric gold outlines, soft gradient lighting, architectural corner details, and a restrained animated border.
+
+If a real photo is later uploaded, integrate it professionally using object-fit cover and a tasteful color grade without altering the person's identity.
+
+### Additional hero details
+
+Include:
+
+- A small location label: Lahore, Pakistan
+- An understated scroll indicator
+- A subtle animated background grid or geometric lines
+- Controlled hero text animations
+- High-quality responsive spacing
+
+Avoid unsupported claims such as "Number One Sales Expert" or invented revenue achievements.
+
+---
+
+## 08. SECTION 3: PROFESSIONAL HIGHLIGHTS
+
+Create a sleek horizontal executive highlights section.
+
+Display only facts supported by the resume.
+
+### Highlight 1
+
+**4.5+**
+
+Years of Business Development Experience
+
+### Highlight 2
+
+**5**
+
+Business Development Professionals Led
+
+### Highlight 3
+
+**AI & Cloud**
+
+Technology-Sector Business Development Focus
+
+Do not present AI & Cloud as a numeric KPI.
+
+Create an elegant split layout with premium separators and carefully animated numbers.
+
+Only numerical values should use count-up animations.
+
+Do not add fictional metrics for generated revenue, acquired clients, conversion rates, project value, or total deals.
+
+---
+
+## 09. SECTION 4: ABOUT ASAD
+
+### Section label
+
+01 / THE PROFESSIONAL
+
+### Heading
+
+**A Strategic Mindset. A Relationship-Driven Approach.**
+
+### Content
+
+Write a polished professional narrative based on the supplied career information.
+
+Suggested copy:
+
+"I have built my career around identifying business opportunities, developing meaningful professional relationships, and helping technology-focused organizations expand their client acquisition efforts.
+
+My experience spans B2B outbound sales, LinkedIn outreach, email marketing, freelancing platforms, and business development strategy across software, AI, cloud, and digital services.
+
+From developing tailored proposals to managing outreach initiatives and leading a business development team, my focus has remained on understanding client needs, communicating value, and building lasting business relationships."
+
+### Layout
+
+Use a premium two-column editorial structure.
+
+Left:
+
+Large heading with selective serif typography.
+
+Right:
+
+Narrative text and compact professional highlights.
+
+Include a subtle decorative vertical rule and an elegant outlined call to action.
+
+### Optional supporting elements
+
+Create small labels such as:
+
+- Strategy
+- Client Acquisition
+- Relationships
+- Leadership
+
+These are thematic identifiers, not performance claims.
+
+---
+
+## 10. SECTION 5: CORE EXPERTISE
+
+### Section label
+
+02 / CAPABILITIES
+
+### Main heading
+
+**Turning Business Potential Into Meaningful Opportunities.**
+
+Create an interactive, luxurious grid of capability panels.
+
+### Capability 1: B2B Business Development
+
+Content:
+
+Building structured approaches to identify business opportunities, engage prospective clients, support sales conversations, and develop commercial relationships.
+
+### Capability 2: Strategic Lead Generation
+
+Content:
+
+Researching target markets, identifying relevant prospects, qualifying opportunities, and organizing lead generation activities around business objectives.
+
+### Capability 3: Sales Strategy and Negotiation
+
+Content:
+
+Developing tailored proposals, positioning technology services, supporting commercial negotiations, and nurturing opportunities through the sales process.
+
+### Capability 4: Technology Solution Selling
+
+Content:
+
+Communicating the business value of AI, automation, cloud, software development, and related technology services in collaboration with technical teams.
+
+### Capability 5: CRM and Pipeline Management
+
+Content:
+
+Using CRM tools and structured follow-up processes to organize prospects, maintain visibility, and support relationship management.
+
+### Capability 6: Team Leadership
+
+Content:
+
+Leading a business development team, coordinating outreach activities, and supporting alignment between business development and technical stakeholders.
+
+### Design
+
+Each capability panel should include:
+
+- Thin champagne border
+- Distinctive number
+- Minimal line icon
+- Strong heading
+- Concise description
+- Subtle hover transition
+- Microanimated decorative details
+
+Do not use generic illustrations of random office workers.
+
+---
+
+## 11. SECTION 6: CLIENT ACQUISITION CHANNELS
+
+This is one of the most important sections of the entire portfolio.
+
+Give it distinctive visual treatment and substantial content.
+
+### Section label
+
+03 / ACQUISITION CHANNELS
+
+### Main heading
+
+**Multiple Channels. One Focus: Building Business Relationships.**
+
+Create four large interactive panels.
+
+Each panel should feel like its own miniature portfolio experience.
+
+### PANEL A: UPWORK
+
+Heading:
+
+**Upwork | Strategic Project Acquisition**
+
+Supporting copy:
+
+"Experience in identifying relevant opportunities, preparing tailored proposals, coordinating project requirements, and converting prospective conversations into meaningful client relationships."
+
+Include these supported responsibilities:
+
+- Relevant project opportunity research
+- Proposal customization
+- Strategic bidding
+- Client requirement understanding
+- Project scope coordination with technical teams
+- Client communication and follow-up
+- Relationship nurturing
+
+Explain his experience using Upwork as a business development channel.
+
+Do not claim that any particular Upwork profile personally belongs to Asad.
+
+Do not display invented earnings, Job Success Scores, Top Rated badges, or project totals.
+
+#### Visual interaction
+
+Create an elegant conceptual Upwork opportunity workflow:
+
+Opportunity Discovery → Proposal → Client Conversation → Project Scoping → Relationship Development
+
+Animate the connecting lines and steps.
+
+Make it clear that this is a process illustration, not real account analytics.
+
+#### Profile link
+
+Use an optional configurable link for an actual Upwork profile.
+
+If no URL is supplied, hide the profile link entirely while retaining the Upwork experience content.
+
+### PANEL B: FIVERR
+
+Heading:
+
+**Fiverr | Service Discovery and Client Engagement**
+
+Supporting copy:
+
+"Experience using Fiverr to identify project opportunities, support service positioning, maintain relevant gig listings, respond to client inquiries, and support long-term client acquisition."
+
+Include:
+
+- Gig listing optimization
+- Service positioning
+- Client inquiries
+- Proposal and requirement discussions
+- Client follow-ups
+- Relationship development
+
+The resume describes experience working with Fiverr, but it does not establish verified personal ownership of a specific account.
+
+Do not manufacture seller ratings or completed-order statistics.
+
+#### Visual interaction
+
+Create a conceptual premium gig presentation card with animated stages:
+
+Service Visibility → Client Inquiry → Requirement Discussion → Business Opportunity
+
+This must not resemble a fabricated real Fiverr dashboard.
+
+### PANEL C: LINKEDIN OUTREACH
+
+Heading:
+
+**LinkedIn | Connecting With the Right Decision-Makers**
+
+Supporting copy:
+
+"Experience developing personalized B2B LinkedIn outreach strategies, researching decision-makers through Sales Navigator, and supporting client acquisition for technical solutions, including Google Cloud Platform services."
+
+Include:
+
+- Prospect identification
+- LinkedIn Sales Navigator research
+- Decision-maker targeting
+- Personalized messaging
+- Strategic connection outreach
+- Follow-up sequences
+- Prospect relationship management
+- Cloud solution positioning
+
+#### Visual interaction
+
+Create a premium animated outreach journey featuring elegant connected nodes.
+
+Display:
+
+Research → Identify → Personalize → Connect → Follow Up
+
+Use minimal graphics that communicate professional outreach.
+
+Do not display fabricated LinkedIn conversations or real-looking profiles of invented prospects.
+
+### PANEL D: EMAIL MARKETING
+
+Heading:
+
+**Email Outreach | Personalized, Structured and Intentional**
+
+Supporting copy:
+
+"Experience planning and optimizing B2B email campaigns through prospect segmentation, personalized email sequences, automation, A/B testing, and campaign performance review."
+
+Include:
+
+- Apollo-based prospecting
+- Instantly email sequences
+- Audience segmentation
+- Lead data verification
+- Email personalization
+- A/B testing
+- Follow-up sequences
+- Engagement review
+- CRM tracking
+
+Relevant tools include:
+
+Apollo, Instantly, Airscale, MillionVerifier, HubSpot, and Mailchimp.
+
+Do not imply that every tool was used in every campaign.
+
+#### Visual interaction
+
+Create a beautiful conceptual email-sequence illustration.
+
+Show a clean timeline:
+
+Prospect Research → Data Quality → Personalization → Sequence Launch → Follow-Up → Optimization
+
+Use delicate animated lines connecting each stage.
+
+Avoid fictional open-rate charts or fabricated campaign numbers.
+
+### Overall channel section design
+
+The section should feature:
+
+- Responsive interactive cards
+- Refined platform name typography
+- Premium conceptual visuals
+- Subtle channel-specific illustrations
+- Smooth panel transitions
+- Elegant hover treatments
+- Accessible click and keyboard interactions
+
+This section should feel as polished as an interactive case study gallery from a world-class digital agency.
+
+---
+
+## 12. SECTION 7: BUSINESS DEVELOPMENT APPROACH
+
+### Section label
+
+04 / THE APPROACH
+
+### Main heading
+
+**From Initial Research to Lasting Client Relationships.**
+
+Create a premium process presentation based on the responsibilities shown in Asad's resume.
+
+Present the following as an illustrative synthesis of his experience, not as a verified proprietary framework.
+
+### Phase 01: Understand the Market
+
+Research potential industries, customer needs, relevant opportunities, and competitive conditions.
+
+### Phase 02: Identify the Right Prospects
+
+Use prospecting platforms and business research to identify companies and relevant decision-makers.
+
+### Phase 03: Develop Personalized Outreach
+
+Create tailored messaging for different business needs, industries, and outreach channels.
+
+### Phase 04: Start Meaningful Conversations
+
+Engage prospects through LinkedIn, email, and freelancing platforms.
+
+### Phase 05: Align Business Needs With Technical Solutions
+
+Collaborate with technical teams to understand requirements and communicate relevant service offerings.
+
+### Phase 06: Nurture the Relationship
+
+Maintain communication, organize follow-ups, and support longer-term business relationships.
+
+### Visual direction
+
+Create a vertical premium editorial timeline on desktop.
+
+Use fine connecting lines with a subtle animated progress indicator.
+
+Each phase should feature:
+
+- Two-digit numbering
+- Bold heading
+- Concise description
+- Elegant geometric accent
+- Progressive scroll reveal
+
+The mobile version should remain clean and easy to scroll.
+
+Do not turn the process into a complicated animated experience that interferes with reading.
+
+---
+
+## 13. SECTION 8: SELECTED CAMPAIGN PROJECTS
+
+### Section label
+
+05 / SELECTED WORK
+
+### Heading
+
+**Strategy in Practice.**
+
+This section must be based on the two project descriptions available in Asad's resume.
+
+Do not create fictional client companies, financial results, testimonials, or made-up campaign screenshots.
+
+Present these as detailed professional initiative summaries.
+
+### PROJECT 01
+
+**Email Marketing for AI & Cloud Solutions**
+
+Category:
+B2B Email Outreach / AI & Cloud Services
+
+#### Project overview
+
+A targeted email outreach initiative focused on generating business opportunities for AI and cloud solutions through personalized messaging, automated sequences, and structured campaign optimization.
+
+#### Responsibilities
+
+- Developing email outreach strategies
+- Using Apollo and Instantly for prospecting and outreach
+- Preparing personalized email sequences
+- Segmenting lead lists
+- Conducting A/B testing on email content
+- Tracking campaign engagement
+- Reviewing performance to refine outreach
+
+#### Tools
+
+Apollo, Instantly, HubSpot, Mailchimp
+
+#### Outcomes
+
+Describe the documented qualitative work and optimization activities without inventing quantitative performance.
+
+Do not insert percentage improvements or ROI figures.
+
+#### Visual direction
+
+Present this campaign as a premium editorial case study.
+
+Use a layout with:
+
+- Large project number
+- Project title
+- Campaign overview
+- Role and responsibilities
+- Tool labels
+- Animated conceptual outreach sequence
+- Expandable case study details
+
+Optional abstract illustrations can include envelope outlines, segmented contact nodes, and flowing connection lines.
+
+Do not present conceptual illustrations as screenshots of real campaigns.
+
+### PROJECT 02
+
+**LinkedIn Outreach for Cloud Solutions**
+
+Category:
+LinkedIn Prospecting / Google Cloud Platform
+
+#### Project overview
+
+A LinkedIn-based business development initiative focused on connecting with enterprise decision-makers and presenting Google Cloud Platform-related solutions.
+
+#### Responsibilities
+
+- Identifying relevant decision-makers using LinkedIn Sales Navigator
+- Developing personalized outreach messaging
+- Communicating GCP-related business value
+- Highlighting topics such as scalability, cost optimization, and AI/ML integration
+- Managing messaging sequences
+- Reviewing engagement
+- Refining outreach approaches
+
+#### Tools
+
+LinkedIn Sales Navigator and LinkedIn outreach automation tools
+
+#### Visual direction
+
+Use a sophisticated diagram of connected organizations, decision-makers, and outreach touchpoints.
+
+The display should be abstract and clearly illustrative.
+
+Include a polished expanded project detail panel.
+
+### Project gallery interactions
+
+- Smooth card hover
+- Large editorial project numbers
+- Animated border transitions
+- Elegant expand/collapse interactions
+- Progressive content reveals
+- Responsive project layouts
+
+Do not label these projects as verified client success stories with measurable outcomes unless such evidence is provided.
+
+---
+
+## 14. SECTION 9: PROFESSIONAL EXPERIENCE
+
+### Section label
+
+06 / CAREER JOURNEY
+
+### Heading
+
+**A Career Built Around Business Growth.**
+
+Create a visually impressive animated vertical career timeline.
+
+Use the exact employers and dates supplied.
+
+### EXPERIENCE 01
+
+**Visionerds**
+
+Dates: September 2024 - Present, as listed in the supplied resume
+
+Role: Business Developer Manager, as written in the resume
+
+Key responsibilities:
+
+- Leading a team of five business development professionals
+- Developing B2B sales and outreach strategies
+- Supporting AI and cloud business development
+- Identifying partnership opportunities
+- Managing lead generation across multiple channels
+- Using tools such as Apollo, Instantly, LinkedIn Sales Navigator, Airscale, MillionVerifier, and Salesforce
+- Working with Upwork and Fiverr opportunities
+- Collaborating with technical teams
+
+### EXPERIENCE 02
+
+**E1SOI**
+
+Dates: March 2024 - August 2024
+
+Employment type: Contract-based engagement
+
+The resume does not provide a precise job title for this engagement. Do not invent one.
+
+Key responsibilities:
+
+- CMS-focused lead generation
+- Targeted email marketing
+- Outreach strategy development
+- Campaign optimization
+- Upwork and Fiverr opportunity identification
+- Collaboration with sales and technical teams
+
+### EXPERIENCE 03
+
+**Vital Steer**
+
+Dates: June 2023 - July 2024
+
+Role: Business Developer
+
+Key responsibilities:
+
+- Google Cloud Platform-related lead generation
+- LinkedIn outreach
+- Email marketing and automation
+- Upwork bidding
+- Long-term client relationship development
+- Collaboration with cloud architects and technical teams
+- Market and competitor research
+
+### EXPERIENCE 04
+
+**WonderCrafts**
+
+Dates: November 2021 - May 2023
+
+Role: Associate Business Developer
+
+Key responsibilities:
+
+- Prospecting on Upwork, Fiverr, and Freelancer
+- Identifying web and mobile development projects
+- Creating tailored proposals
+- Supporting service listing optimization
+- Responding to client inquiries
+- Coordinating with technical teams
+- Maintaining client relationships
+
+### Important timeline instruction
+
+The E1SOI and Vital Steer dates overlap in the resume.
+
+Preserve the original dates accurately.
+
+Do not change them to create an artificial sequential employment timeline.
+
+Visually represent the overlapping engagements correctly.
+
+### Design direction
+
+Each timeline entry should contain:
+
+- Company name in strong typography
+- Job title
+- Employment dates
+- Short role description
+- Expandable responsibilities
+- Animated fine-line timeline
+- Elegant hover and active-state treatments
+
+Use scroll progression carefully.
+
+Avoid inventing company descriptions, logos, revenue results, or promotions.
+
+---
+
+## 15. SECTION 10: PLATFORMS AND TOOLS
+
+### Section label
+
+07 / THE TOOLKIT
+
+### Heading
+
+**The Platforms Behind a Structured Approach.**
+
+Create a refined, visually engaging toolkit section.
+
+Organize tools by professional purpose.
+
+### Prospecting and lead intelligence
+
+- Apollo
+- LinkedIn Sales Navigator
+- Airscale
+- MillionVerifier
+
+### Outreach and email marketing
+
+- Instantly
+- HubSpot
+- Mailchimp
+- LinkedIn outreach automation tools
+
+### Freelancing and project acquisition
+
+- Upwork
+- Fiverr
+- Freelancer
+
+### CRM and relationship management
+
+- Salesforce
+- HubSpot
+
+### Visual direction
+
+Display tools using minimalist typography-led badges, pill-shaped labels, or elegant bordered rows.
+
+Create tasteful microinteractions.
+
+Use recognizable logos only when reliable, legally usable assets are available.
+
+Do not invent software products or display fake platform certifications.
+
+Do not use artificially created proficiency percentages.
+
+---
+
+## 16. SECTION 11: EDUCATION
+
+### Section label
+
+08 / ACADEMIC FOUNDATION
+
+### Heading
+
+**A Technical Foundation for Commercial Thinking.**
+
+Display:
+
+Bachelor of Science in Computer Science
+
+University of South Asia
+
+2023
+
+Supporting copy:
+
+"A computer science academic background that complements professional experience in business development across software and technology services."
+
+Keep the section understated and visually sophisticated.
+
+No fabricated awards, certifications, GPA, or academic honors.
+
+---
+
+## 17. SECTION 12: CONTACT
+
+### Section label
+
+09 / LET'S CONNECT
+
+### Main heading
+
+**Let's Start a Meaningful Conversation.**
+
+### Supporting text
+
+"Interested in discussing business development, client acquisition, technology-sector growth, or a potential professional collaboration? I'd be glad to connect."
+
+### Contact details
+
+Email:
+asadmunawar366@gmail.com
+
+Phone:
++92 3496506231
+
+Location:
+Lahore, Pakistan
+
+### Primary CTA
+
+**Send an Email**
+
+Link to:
+mailto:asadmunawar366@gmail.com
+
+### Secondary action
+
+**Copy Email Address**
+
+Implement an actual functioning copy-to-clipboard interaction with confirmation feedback.
+
+### LinkedIn
+
+Include an optional LinkedIn button when an actual verified LinkedIn profile URL is supplied.
+
+The resume includes a LinkedIn label, but its exact URL has not been provided in this project brief.
+
+Never invent the URL.
+
+### Contact form
+
+Do not create a contact form that appears functional but silently discards submissions.
+
+GitHub Pages provides static hosting.
+
+For the initial version, prioritize direct email and copy-email interactions.
+
+Only add a true contact form if an explicitly configured external form service is later provided.
+
+### Design direction
+
+Make the contact section one of the most visually memorable parts of the site.
+
+Use:
+
+- Large editorial typography
+- Dark premium background
+- Subtle champagne accents
+- Animated decorative lines
+- Elegant call-to-action buttons
+- Generous spacing
+- Restrained entrance motion
+
+---
+
+## 18. SECTION 13: FOOTER
+
+Create a refined footer.
+
+Include:
+
+Asad Munawar
+
+Business Development Manager
+
+Lahore, Pakistan
+
+Email contact
+
+Navigation shortcuts
+
+Copyright text using the current year dynamically
+
+Use a minimal AM monogram.
+
+Provide a subtle back-to-top interaction.
+
+Do not include fake social media profiles or nonfunctional social icons.
+
+---
+
+## 19. RESPONSIVE EXPERIENCE
+
+This website must look intentionally designed on every screen size.
+
+### Desktop
+
+Use rich editorial compositions, full-scale typography, carefully balanced whitespace, and subtle interactive elements.
+
+### Tablet
+
+Reorganize grids thoughtfully.
+
+Maintain strong visual hierarchy and readable text.
+
+### Mobile
+
+Create a premium mobile-first adaptation.
+
+Requirements:
+
+- Elegant mobile navigation
+- Fluid responsive typography
+- Properly spaced tap targets
+- No horizontal overflow
+- Optimized portrait handling
+- Readable card layouts
+- Functional section navigation
+- Simplified animations where necessary
+- No hover-only essential content
+- Reduced visual complexity without losing the luxury identity
+
+Do not simply shrink the desktop layout.
+
+Test at representative widths including 320px, 375px, 768px, 1024px, and large desktop displays.
+
+---
+
+## 20. TECHNOLOGY STACK
+
+Build the website with:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS or well-structured modular CSS
+- Motion for React
+- Lucide icons
+- Native SVG and CSS for decorative graphics
+
+Use modern, stable, mutually compatible package versions.
+
+### Critical deployment requirement
+
+**I will host this project on GitHub Pages.**
+
+Therefore, the final application must be a completely static, client-side website that can be built and hosted without a server.
+
+Do not depend on:
+
+- Node.js servers at runtime
+- Express
+- Server-side API routes
+- Databases
+- Authentication servers
+- Gemini API calls
+- Secret environment variables
+- Cloud Run
+- Server-side rendering
+
+AI Studio may offer full-stack functionality, but this particular project must remain static-hosting compatible.
+
+### Architecture
+
+Create a clean component-based structure.
+
+Suggested components:
+
+- Navbar
+- Hero
+- SectionHeading
+- ProfessionalHighlights
+- About
+- Expertise
+- AcquisitionChannels
+- ProcessTimeline
+- ProjectShowcase
+- ExperienceTimeline
+- Toolkit
+- Education
+- Contact
+- Footer
+- ScrollProgress
+- AnimatedText
+- MagneticButton
+- RevealOnScroll
+
+Create shared design tokens for:
+
+- Colors
+- Typography
+- Spacing
+- Border radii
+- Animation timing
+- Easing
+- Shadows
+- Breakpoints
+
+Keep content separate from presentation wherever possible.
+
+Use a centralized TypeScript content configuration for Asad's biography, employment information, projects, contact details, optional social links, and image paths.
+
+I want to be able to update the website without searching through multiple components.
+
+---
+
+## 21. GITHUB PAGES DEPLOYMENT
+
+The project must be ready for deployment to GitHub Pages.
+
+### Build setup
+
+Provide working npm scripts for:
+
+- Development
+- Production build
+- Production preview
+
+Ensure `npm run build` completes successfully.
+
+The production output should be generated in the `dist` directory.
+
+### Base path
+
+GitHub Pages supports both root domains and repository subpaths.
+
+Configure Vite so that:
+
+- For a user site or custom domain, the base can be `/`.
+- For a project repository site, the base can be `/<REPOSITORY_NAME>/`.
+
+Use a clearly documented configuration variable or setting for this purpose.
+
+Do not invent a GitHub username or repository name.
+
+Make the configuration easy to update later.
+
+### Assets
+
+Use reliable asset imports or Vite-compatible asset URLs.
+
+Do not assume that every static asset will be served from the domain root.
+
+Images, fonts, and PDF files must work under a GitHub Pages repository subpath.
+
+### Routing
+
+Prefer a single-page experience using anchor navigation.
+
+Avoid server-dependent routing.
+
+If any separate client-side pages are introduced, implement a GitHub Pages-compatible strategy rather than assuming server-side route rewrites.
+
+### Deployment workflow
+
+Create a real GitHub Actions deployment workflow at:
+
+`.github/workflows/deploy.yml`
+
+The workflow must:
+
+1. Check out the repository.
+2. Configure a compatible Node.js environment.
+3. Install dependencies.
+4. Run the production build.
+5. Configure GitHub Pages.
+6. Upload the `dist` directory as the Pages artifact.
+7. Deploy using the official GitHub Pages deployment action.
+
+Use documented GitHub Actions permissions.
+
+Include manual workflow dispatch support and deployment on changes to the main branch.
+
+Use currently supported official GitHub Actions versions.
+
+### README
+
+Create a comprehensive README that explains:
+
+- Project setup
+- Dependency installation
+- Running locally
+- Building for production
+- Replacing the portrait
+- Updating contact details
+- Adding verified Upwork, Fiverr, and LinkedIn URLs
+- Adding a downloadable resume
+- Configuring the GitHub Pages base path
+- Pushing to GitHub
+- Enabling GitHub Pages with GitHub Actions
+- Checking deployment status
+- Troubleshooting blank pages and broken asset paths
+- Updating the website after deployment
+
+Include a clear example of the final URL structure, using placeholder username and repository values rather than invented real ones.
+
+---
+
+## 22. MISSING ASSET HANDLING
+
+Some important information is not available yet.
+
+Create an editable configuration for:
+
+- LinkedIn URL
+- Upwork profile URL
+- Fiverr profile URL
+- Personal portrait
+- Optional downloadable resume
+- Optional custom domain
+- Optional scheduling link
+- Optional campaign screenshots
+- Optional additional case studies
+
+Do not fabricate missing details.
+
+If a URL is missing, do not show a link to `#`, an invented account, or an unrelated website.
+
+Hide the affected action or show a clearly noninteractive placeholder in development only.
+
+No broken buttons should appear on the live website.
+
+Use a refined portrait placeholder until a real photograph is supplied.
+
+Only make the resume download button visible when an actual accessible PDF file is included in the project's public assets.
+
+Keep the website complete and visually polished even with these details missing.
+
+---
+
+## 23. PERFORMANCE AND ACCESSIBILITY
+
+The website must feel premium because it is fast, stable, and easy to use.
+
+### Performance
+
+- Optimize image sizes.
+- Use modern image formats where appropriate.
+- Prevent layout shifts.
+- Lazy-load noncritical images.
+- Minimize unnecessary JavaScript.
+- Avoid unused animation dependencies.
+- Use efficient CSS transforms.
+- Prevent unnecessary component rerenders.
+- Optimize mobile performance.
+- Avoid long blocking animations.
+
+Aim for strong Lighthouse performance and accessibility results without making unsupported guarantees.
+
+### Accessibility
+
+- Semantic HTML
+- Meaningful heading hierarchy
+- Keyboard accessibility
+- Visible focus indicators
+- Accessible mobile menu
+- Sufficient contrast
+- Descriptive button text
+- Appropriate image alt text
+- Reduced-motion support
+- Skip-to-content link
+- Logical focus order
+- No critical content hidden behind hover interactions
+
+Ensure animations never prevent users from accessing information.
+
+---
+
+## 24. SEO AND PROFESSIONAL VISIBILITY
+
+Implement professional SEO foundations.
+
+### Page title
+
+Asad Munawar | Business Development Manager & B2B Growth Strategist
+
+### Meta description
+
+Explore Asad Munawar's experience in B2B business development, client acquisition, LinkedIn outreach, email marketing, Upwork, Fiverr, and technology-sector growth.
+
+### Additional requirements
+
+- Open Graph metadata
+- Responsive social preview preparation
+- Suitable favicon
+- Semantic headings
+- Meaningful descriptive text
+- Accessible navigation links
+- Basic structured data where accurate
+- Correct canonical URL configuration once the final domain is known
+- Search-engine-friendly content structure
+
+Do not hardcode an invented deployment URL as the canonical address.
+
+---
+
+## 25. CONTENT WRITING STANDARDS
+
+All copy must be written like an experienced professional presenting his own work.
+
+### Tone
+
+- Human
+- Executive
+- Confident
+- Clear
+- Professional
+- Credible
+- Precise
+- Modern
+
+Avoid:
+
+- Excessive corporate buzzwords
+- Repeated generic phrases
+- Artificial motivational language
+- Overclaiming
+- Unsupported statistics
+- Fake testimonials
+- Fake revenue metrics
+- Unverified certifications
+- Fabricated client names
+- Fictional case study outcomes
+
+Do not turn this into a generic marketing agency website.
+
+It must remain Asad Munawar's personal professional portfolio.
+
+### Content hierarchy
+
+Make sure the story is clear:
+
+Who Asad is → What he specializes in → How he acquires clients → What professional projects he has handled → Where he has worked → How to contact him.
+
+### Accuracy
+
+Use the supplied resume as the factual source of truth.
+
+Preserve job dates, employers, and supported responsibilities.
+
+Do not infer campaign results that are not explicitly provided.
+
+If supplemental information is missing, make it configurable rather than inventing it.
+
+---
+
+## 26. QUALITY CONTROL
+
+Before presenting the finished website, review and refine every section.
+
+Verify:
+
+- The hero communicates Asad's professional positioning immediately.
+- The website looks premium rather than overly decorative.
+- Typography is consistent.
+- Gold accents are used with restraint.
+- Animations are smooth.
+- Motion supports the content.
+- The layout is not repetitive.
+- The professional timeline is accurate.
+- Upwork and Fiverr experience is presented credibly.
+- LinkedIn and email marketing receive detailed attention.
+- Both resume-backed projects appear.
+- All visible links work.
+- No invented testimonials or metrics exist.
+- The website remains usable without a portrait image.
+- Mobile navigation works.
+- Contact actions work.
+- There are no TypeScript compilation errors.
+- There are no missing asset references.
+- The production build succeeds.
+- GitHub Pages subpath deployment is supported.
+
+Check for visual problems such as awkward line breaks, clipping, overflowing containers, inconsistent borders, overlapping typography, unreadable text, and animations that obscure content.
+
+Do not declare the project complete if important interactive elements are broken.
+
+---
+
+## 27. FINAL DESIGN EXPECTATION
+
+The website should feel like a professional signature.
+
+Imagine a business development executive whose digital presence combines:
+
+The sophistication of luxury editorial design.
+
+The discipline of a premium management consulting firm.
+
+The visual innovation of a modern technology brand.
+
+The fluidity of a carefully animated award-winning website.
+
+The credibility of a genuinely experienced B2B growth professional.
+
+It should feel deliberate, sophisticated, memorable, and polished.
+
+**The website must communicate value through authentic professional experience, not artificial claims.**
+
+---
+
+## 28. REQUIRED FINAL DELIVERY
+
+Generate the complete working application.
+
+Do not stop at a mockup.
+
+Provide:
+
+1. A functioning React and TypeScript website.
+2. All necessary source files and components.
+3. A consistent responsive styling system.
+4. Fully implemented premium animations.
+5. Accurate professional content based on this specification.
+6. Functional navigation and contact interactions.
+7. A clean asset structure with replaceable placeholders.
+8. GitHub Pages-compatible Vite configuration.
+9. A working GitHub Actions deployment file.
+10. Clear setup and deployment instructions.
+
+Start by establishing the design system and component architecture, then implement every portfolio section and its animations.
+
+Build the full experience and refine it until it feels like a custom luxury executive portfolio rather than a standard template.
+
+**Prioritize visual excellence, professional credibility, excellent animation quality, and real GitHub Pages compatibility equally.**
